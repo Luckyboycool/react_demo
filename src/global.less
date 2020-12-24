@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+}
+
+#root {
+  background-color: #f2f5f8;
+}
+// antd
+.ant-tabs-nav-list {
+  user-select: none;
+}
+
+#root .ant-tabs-top > .ant-tabs-nav {
+  margin: 0;
+}
+
+.editable-cell-value-wrap {
+  height: 21px;
+}
+
+#root .ant-table-content td button + button {
+  margin-left: 5px;
+}
+#root .ant-table-content td .ant-btn > .anticon {
+  padding-top: 3px;
+}
+
+#root .ant-modal-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+// 表格按钮 不撑开行高
+#root .ant-table.ant-table-small .ant-table-tbody > tr > td:last-child {
+  padding: 0px 4px;
+}
+// 表头居中
+#root .ant-table-small .ant-table-thead > tr > th {
+  text-align: center;
+  white-space: nowrap;
+}
+
+#root .ant-space-item {
+  margin-right: 0 !important;
+  & + .ant-space-item {
+    margin-left: 8px;
+  }
+}
+
+#root .ant-menu-inline-collapsed {
+  width: 50px;
+}
+#root .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding: 0 12px !important;
+}
+#root .ant-pagination-options-size-changer.ant-select {
+  margin-right: 0;
+}
+#root .ant-table-pagination.ant-pagination {
+  margin: 4px 0 0;
+}
+
+#root .ant-input-search > .ant-input-group > .ant-input-group-addon .ant-input-search-button {
+  padding: 1px 7px;
+}
+
+#root .ant-breadcrumb-link > span.hover:hover {
+  color: #40a9ff;
+  cursor: pointer;
+}
+
+// 修改密码 modal title 右边对齐的Bug
+#root .ant-modal-title {
+  text-align: left;
+}
+
+body .ant-drawer-right {
+  top: 40px;
+  height: calc(100vh - 40px);
+}
+.ant-drawer-right .ant-drawer-header,
+.ant-drawer-right .ant-drawer-body {
+  padding: 0;
+}
+
+#root .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+#root .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  padding: 3px 16px;
+}
+
+#root .ant-menu-sub.ant-menu-inline > .ant-menu-item,
+#root .ant-menu-vertical > .ant-menu-item,
+#root .ant-menu-vertical-left > .ant-menu-item,
+#root .ant-menu-vertical-right > .ant-menu-item,
+#root .ant-menu-inline > .ant-menu-item,
+#root .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+#root .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+#root .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+#root .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 30px;
+  line-height: 30px;
+}
+#root .ant-menu-vertical .ant-menu-item,
+#root .ant-menu-vertical-left .ant-menu-item,
+#root .ant-menu-vertical-right .ant-menu-item,
+#root .ant-menu-inline .ant-menu-item,
+#root .ant-menu-vertical .ant-menu-submenu-title,
+#root .ant-menu-vertical-left .ant-menu-submenu-title,
+#root .ant-menu-vertical-right .ant-menu-submenu-title,
+#root .ant-menu-inline .ant-menu-submenu-title {
+  padding: 0 13px !important;
+}
+#root .ant-menu-sub.ant-menu-inline > .ant-menu-item {
+  padding: 0 13px 0 37px !important;
+}
+#root .ant-menu-inline .ant-menu-item:not(:last-child) {
+  margin-bottom: 4px;
+}
+#root .ant-menu-inline-collapsed > .ant-menu-item .anticon,
+#root .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#root .ant-table.ant-table-small {
+  font-size: 13px;
+}
+
+#root .ant-btn-icon-only.ant-btn-sm {
+  width: 20px;
+  height: 20px;
+  padding: 0px 0;
+  font-size: 12px;
+}
+#root .ant-btn-circle.ant-btn-sm {
+  min-width: 20px;
+}
+
+.ant-table.ant-table-small .ant-table-title,
+.ant-table.ant-table-small .ant-table-footer,
+.ant-table.ant-table-small .ant-table-thead > tr > th,
+.ant-table.ant-table-small .ant-table-tbody > tr > td,
+.ant-table.ant-table-small tfoot > tr > th,
+.ant-table.ant-table-small tfoot > tr > td {
+  padding: 4px;
+}
+#root .ant-checkbox-inner {
+  width: 14px;
+  height: 14px;
+}
+#root .ant-table.ant-table-small .ant-table-thead .ant-table-column-sorters {
+  padding: 4px;
+}
+
+#root .ant-modal-header {
+  padding: 8px 12px;
+}
+#root .ant-modal-title {
+  font-size: 14px;
+  line-height: 20px;
+}
+#root .ant-modal-close-x {
+  width: 36px;
+  height: 36px;
+  line-height: 38px;
+}
+#root .ant-modal-body {
+  padding: 8px;
+  font-size: 12px;
+}
+
+#root .ant-form-item-label > label {
+  font-size: 12px;
+}
+
+#root .ant-modal-footer {
+  padding: 4px 8px;
+  .ant-btn {
+    font-size: 12px;
+    padding: 2px 15px;
+    line-height: 20px;
+    height: 26px;
+  }
+}
+
+#root .ant-form-item-explain,
+.ant-form-item-extra {
+  font-size: 12px;
+  line-height: 16px;
+  min-height: 16px;
+}
+#root .ant-form-item {
+  margin-bottom: 16px;
+}
+#root .ant-form-item-with-help {
+  margin-bottom: 0;
+}
+
+#root .ant-form .ant-row {
+  // width: 100%;
+}
+#root .ant-form button + .ant-btn-dashed {
+  margin-left: 8px;
+}
