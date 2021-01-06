@@ -30,7 +30,7 @@
     "@umijs/hooks": "^1.9.3",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.19",
-    "axios": "^0.20.0",
+    "axios": ">=0.21.1",
     "echarts": "^4.9.0",
     "js-cookie": "^2.2.1",
     "lint-staged": "^10.0.7",
